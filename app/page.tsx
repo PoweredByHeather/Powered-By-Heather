@@ -15,27 +15,27 @@ const featured = [
     href: "https://downtowndurham.com/MarketOnMarket/",
   },
   {
-    name: "Blueprint 2035 Engagement",
+    name: "Blueprint 2035",
     subtitle: "Community listening + activation to rebuild trust and shape a 10-year downtown plan",
     status: "Ongoing",
     href: "https://downtowndurham.com/blueprint/",
   },
   {
-    name: "Business Retention & Recruitment Fund (BRRF)",
+    name: "Business Retention & Recruitment Fund",
     subtitle: "Grant and loan program supporting small businesses in Downtown Durham",
     status: "Active — Multi-year initiative",
     href: "https://irp.cdn-website.com/df9a0766/files/uploaded/Durham_Choice_Business_Fund_Brochure-UPDATED_250415_(HUD_GUIDANCE).pdf",
   },
   {
     name: "Aya Birth & Community Wellness",
-    subtitle: "Founding board & launch planning for a community-rooted maternal health nonprofit",
-    status: "Launch phase — 2022–2024",
+    subtitle: "North Carolina’s first Black midwife‑led birth & wellness center (nonprofit startup)",
+    status: "Complete",
     href: "https://ayawellness.org/",
   },
   {
     name: "Social Enterprise Academy",
-    subtitle: "Workforce development initiative connecting training, funding, and employer partners",
-    status: "Program development & growth",
+    subtitle: "Organizations first‑ever soft‑skills & workforce pathway; partnered with FIU to prepare participants for sustainable careers",
+    status: "Complete",
     href: "https://www.youtube.com/watch?v=InuUZaMdtZA",
   },
 ];
