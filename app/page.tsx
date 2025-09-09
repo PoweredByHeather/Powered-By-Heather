@@ -216,9 +216,14 @@ export default function PoweredByHeather() {
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
                     <h3 className="text-lg font-semibold">{p.name}</h3>
-                    <a className="text-sm inline-flex items-center gap-1 text-neutral-700 hover:underline" href={p.href} target="_blank" rel="noreferrer">
+                    <a className="text-sm inline-flex items-center gap-1 text-neutral-700 hover:underline"
+                      href={p.href}
+                      target="_blank"
+                      rel="noreferrer"
+                    > 
                       View <ExternalLink className="w-3.5 h-3.5" />
                     </a>
+
                   </div>
                   <p className="mt-2 text-sm text-neutral-700">{p.subtitle}</p>
                   <p className="mt-3 text-xs text-neutral-500">{p.status}</p>
