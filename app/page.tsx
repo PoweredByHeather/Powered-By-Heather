@@ -138,7 +138,7 @@ export default function PoweredByHeather() {
         <img
           src="/heather-headshot.jpg"
           alt="Heather Wilson headshot"
-          className="w-64 h-64 md:w-72 md:h-72 rounded-full object-cover shadow-sm ring-1 ring-neutral-200"
+          className="w-72 h-72 md:w-80 md:h-80 rounded-full object-cover shadow-sm ring-1 ring-neutral-200"
           loading="eager"
         />
       </div>
