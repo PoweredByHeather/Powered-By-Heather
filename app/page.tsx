@@ -130,44 +130,64 @@ export default function PoweredByHeather() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-16 md:py-20 bg-white border-t border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-12 gap-10">
-          <div className="md:col-span-5">
-            <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">About Heather</h2>
-            <p className="mt-4 text-neutral-700">
-              I'm a program and partnerships leader who translates vision into execution. I build the plan, align the people, manage the dependencies, and deliver outcomes you can measure. My strength lies in turning complexity into clear next steps — and driving them to the finish line.
-            </p>
-            <p className="mt-4 text-neutral-700">
-              I care about resilient communities, equitable access to opportunity, and the small details that create a great experience for stakeholders. Recently, that’s looked like incubating retail founders, coordinating partnerships, and elevating systems that help people grow.
-            </p>
-          </div>
-          <div className="md:col-span-7 grid sm:grid-cols-2 gap-4">
-            <Card className="rounded-2xl">
-              <CardContent className="p-5">
-                <p className="text-xs uppercase tracking-wide text-neutral-500">Strengths</p>
-                <ul className="mt-3 space-y-2 text-sm text-neutral-800">
-                  <li>• Strategy → Roadmap → Execution</li>
-                  <li>• Stakeholder & partner orchestration</li>
-                  <li>• Communications that resonate across audiences</li>
-                  <li>• Grant, budget & vendor alignment</li>
-                  <li>• Operational playbooks & rituals</li>
-                </ul>
-              </CardContent>
-            </Card>
-            <Card className="rounded-2xl">
-              <CardContent className="p-5">
-                <p className="text-xs uppercase tracking-wide text-neutral-500">Focus Areas</p>
-                <ul className="mt-3 space-y-2 text-sm text-neutral-800">
-                  <li>• Program & project management</li>
-                  <li>• Partnerships & stakeholder engagement</li>
-                  <li>• Operations & process improvement</li>
-                  <li>• Strategic communications & storytelling</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+<section id="about" className="py-16 md:py-20 bg-white border-t border-neutral-200">
+  <div className="max-w-6xl mx-auto px-6">
+    <div className="grid gap-6 md:grid-cols-12">
+      {/* 1) Headshot (left) */}
+      <Card className="md:col-span-3 rounded-2xl overflow-hidden">
+        <CardContent className="p-0">
+          <img
+            src="/heather-headshot.jpg"   // keep this name, or change to match your actual file
+            alt="Heather Wilson headshot"
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </CardContent>
+      </Card>
+
+      {/* 2) About Heather */}
+      <div className="md:col-span-5">
+        <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">About Heather</h2>
+        <p className="mt-4 text-neutral-700">
+          I'm a program and partnerships leader who translates vision into execution. I build the plan, align the people,
+          manage the dependencies, and deliver outcomes you can measure. My strength lies in turning complexity into clear next steps —
+          and driving them to the finish line.
+        </p>
+        <p className="mt-4 text-neutral-700">
+          I care about resilient communities, equitable access to opportunity, and the small details that create a great experience for
+          stakeholders. Recently, that’s looked like incubating retail founders, coordinating partnerships, and elevating systems that help people grow.
+        </p>
+      </div>
+
+      {/* 3) Strengths */}
+      <Card className="md:col-span-2 rounded-2xl">
+        <CardContent className="p-5">
+          <p className="text-xs uppercase tracking-wide text-neutral-500">Strengths</p>
+          <ul className="mt-3 space-y-2 text-sm text-neutral-800">
+            <li>• Strategy → Roadmap → Execution</li>
+            <li>• Stakeholder & partner orchestration</li>
+            <li>• Communications that resonate across audiences</li>
+            <li>• Grant, budget & vendor alignment</li>
+            <li>• Operational playbooks & rituals</li>
+          </ul>
+        </CardContent>
+      </Card>
+
+      {/* 4) Focus Areas */}
+      <Card className="md:col-span-2 rounded-2xl">
+        <CardContent className="p-5">
+          <p className="text-xs uppercase tracking-wide text-neutral-500">Focus Areas</p>
+          <ul className="mt-3 space-y-2 text-sm text-neutral-800">
+            <li>• Program & project management</li>
+            <li>• Partnerships & stakeholder engagement</li>
+            <li>• Operations & process improvement</li>
+            <li>• Strategic communications & storytelling</li>
+          </ul>
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</section>
 
       {/* Projects */}
       <section id="projects" className="py-16 md:py-20 bg-white border-t border-neutral-200">
