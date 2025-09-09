@@ -132,18 +132,16 @@ export default function PoweredByHeather() {
       {/* About */}
 <section id="about" className="py-16 md:py-20 bg-white border-t border-neutral-200">
   <div className="max-w-6xl mx-auto px-6">
-    <div className="grid gap-6 md:grid-cols-12">
-      {/* 1) Headshot (left) */}
-      <Card className="md:col-span-3 rounded-2xl overflow-hidden">
-        <CardContent className="p-0">
-          <img
-            src="/heather-headshot.jpg"   // keep this name, or change to match your actual file
-            alt="Heather Wilson headshot"
-            className="w-full h-full object-cover"
-            loading="lazy"
-          />
-        </CardContent>
-      </Card>
+    <div className="grid gap-6 md:grid-cols-12 items-start">
+      {/* 1) Headshot (left) — circular & large */}
+      <div className="md:col-span-3 flex justify-center md:justify-start">
+        <img
+          src="/heather-headshot.jpg"
+          alt="Heather Wilson headshot"
+          className="w-64 h-64 md:w-72 md:h-72 rounded-full object-cover shadow-sm ring-1 ring-neutral-200"
+          loading="eager"
+        />
+      </div>
 
       {/* 2) About Heather */}
       <div className="md:col-span-5">
@@ -160,34 +158,39 @@ export default function PoweredByHeather() {
       </div>
 
       {/* 3) Strengths */}
-      <Card className="md:col-span-2 rounded-2xl">
-        <CardContent className="p-5">
-          <p className="text-xs uppercase tracking-wide text-neutral-500">Strengths</p>
-          <ul className="mt-3 space-y-2 text-sm text-neutral-800">
-            <li>• Strategy → Roadmap → Execution</li>
-            <li>• Stakeholder & partner orchestration</li>
-            <li>• Communications that resonate across audiences</li>
-            <li>• Grant, budget & vendor alignment</li>
-            <li>• Operational playbooks & rituals</li>
-          </ul>
-        </CardContent>
-      </Card>
+      <div className="md:col-span-2">
+        <div className="border border-neutral-200 bg-white rounded-2xl">
+          <div className="p-5">
+            <p className="text-xs uppercase tracking-wide text-neutral-500">Strengths</p>
+            <ul className="mt-3 space-y-2 text-sm text-neutral-800">
+              <li>• Strategy → Roadmap → Execution</li>
+              <li>• Stakeholder & partner orchestration</li>
+              <li>• Communications that resonate across audiences</li>
+              <li>• Grant, budget & vendor alignment</li>
+              <li>• Operational playbooks & rituals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       {/* 4) Focus Areas */}
-      <Card className="md:col-span-2 rounded-2xl">
-        <CardContent className="p-5">
-          <p className="text-xs uppercase tracking-wide text-neutral-500">Focus Areas</p>
-          <ul className="mt-3 space-y-2 text-sm text-neutral-800">
-            <li>• Program & project management</li>
-            <li>• Partnerships & stakeholder engagement</li>
-            <li>• Operations & process improvement</li>
-            <li>• Strategic communications & storytelling</li>
-          </ul>
-        </CardContent>
-      </Card>
+      <div className="md:col-span-2">
+        <div className="border border-neutral-200 bg-white rounded-2xl">
+          <div className="p-5">
+            <p className="text-xs uppercase tracking-wide text-neutral-500">Focus Areas</p>
+            <ul className="mt-3 space-y-2 text-sm text-neutral-800">
+              <li>• Program & project management</li>
+              <li>• Partnerships & stakeholder engagement</li>
+              <li>• Operations & process improvement</li>
+              <li>• Strategic communications & storytelling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
 
       {/* Projects */}
       <section id="projects" className="py-16 md:py-20 bg-white border-t border-neutral-200">
