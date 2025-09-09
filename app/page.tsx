@@ -11,7 +11,7 @@ const featured = [
   {
     name: "Market on Market (Retail Incubator)",
     subtitle: "A 12-month launchpad for four retail founders in Downtown Durham",
-    status: "Cohort applications opening — Fall 2025",
+    status: "Inaugural cohort — Winter 2025",
     href: "https://downtowndurham.com/MarketOnMarket/",
   },
   {
@@ -27,16 +27,28 @@ const featured = [
     href: "https://irp.cdn-website.com/df9a0766/files/uploaded/Durham_Choice_Business_Fund_Brochure-UPDATED_250415_(HUD_GUIDANCE).pdf",
   },
   {
+    name: "Social Enterprise Academy",
+    subtitle: "Organization’s first-ever soft-skills & workforce pathway (FIU education partner)",
+    status: "Complete",
+    href: "https://www.youtube.com/watch?v=InuUZaMdtZA",
+  },
+  {
+    name: "Rites Ventures",
+    subtitle: "Early-stage VC fund investing in companies modernizing the matriarchal experience at key life stages",
+    status: "Complete",
+    href: "https://rites.ventures/",
+  },
+  {
     name: "Aya Birth & Community Wellness",
-    subtitle: "North Carolina’s first Black midwife‑led birth & wellness center (nonprofit startup)",
+    subtitle: "North Carolina’s first Black midwife-led birth & wellness center (nonprofit startup)",
     status: "Complete",
     href: "https://ayawellness.org/",
   },
   {
-    name: "Social Enterprise Academy",
-    subtitle: "Organizations first‑ever soft‑skills & workforce pathway; partnered with FIU to prepare participants for sustainable careers",
-    status: "Complete",
-    href: "https://www.youtube.com/watch?v=InuUZaMdtZA",
+    name: "CHAP-App",
+    subtitle: "Virtual case management pilot launched in response to COVID-19",
+    status: "Live",
+    href: "https://apps.apple.com/tr/app/chap-app/id1548842445",
   },
 ];
 
