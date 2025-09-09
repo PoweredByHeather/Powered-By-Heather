@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Powered By Heather",
+  title: Heather M. Wilson | Complex Projects, Clear Outcomes",
   description: "The hub for Heather Wilson’s professional work — strategy, execution, and communication.",
 };
 
