@@ -129,7 +129,7 @@ export default function PoweredByHeather() {
         </div>
       </section>
 
-      {/* About */}
+     {/* About */}
 <section id="about" className="py-16 md:py-20 bg-white border-t border-neutral-200">
   <div className="max-w-6xl mx-auto px-6">
     <div className="grid gap-6 md:grid-cols-12 items-start">
@@ -190,7 +190,6 @@ export default function PoweredByHeather() {
     </div>
   </div>
 </section>
-
 
       {/* Projects */}
       <section id="projects" className="py-16 md:py-20 bg-white border-t border-neutral-200">
