@@ -28,7 +28,7 @@ const featured = [
   },
   {
     name: "Social Enterprise Academy",
-    subtitle: "Organization’s first-ever soft-skills & workforce pathway (FIU education partner)",
+    subtitle: "Organization’s first-ever cradle-to-career program combining financial literacy, soft-skills development & handso-on workforce training",
     status: "Complete",
     href: "https://www.youtube.com/watch?v=InuUZaMdtZA",
   },
