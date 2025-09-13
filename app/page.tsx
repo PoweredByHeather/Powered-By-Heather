@@ -15,6 +15,12 @@ const featured = [
     href: "https://downtowndurham.com/MarketOnMarket/",
   },
   {
+  name: "Free Public Wi-Fi Benches",
+  subtitle: "5-year Google-funded pilot designed to address the digital divide by enhancing digital connectivity while encouraging foot traffic, and expanding free outdoor connectivity in downtown Durham",
+  status: "Live",
+  href: "https://downtowndurham.com/wifi-benches/",
+},
+  {
     name: "Blueprint 2035",
     subtitle: "Community listening + activation to rebuild trust and shape a 10-year downtown plan",
     status: "Ongoing",
